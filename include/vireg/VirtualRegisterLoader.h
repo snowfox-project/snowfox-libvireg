@@ -50,7 +50,7 @@ public:
 private:
 
   VirtualRegisterLoader() { }
-  VirtualRegisterLoader(VirtualRegisterLoader & other) { }
+  VirtualRegisterLoader(VirtualRegisterLoader & /* other */) { }
 
 };
 
