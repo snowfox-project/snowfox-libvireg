@@ -45,10 +45,10 @@ namespace vireg
  * TYPEDEF
  **************************************************************************************/
 
-typedef boost::variant<VirtReg8,
-                       VirtReg16,
-                       VirtReg32,
-                       VirtReg64> VirtualRegisterVariant;
+typedef boost::variant<Vireg8,
+                       Vireg16,
+                       Vireg32,
+                       Vireg64> VirtualRegisterVariant;
 
 /**************************************************************************************
  * CLASS DECLARATION

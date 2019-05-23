@@ -79,10 +79,10 @@ private:
  * TYPEDEF
  **************************************************************************************/
 
-typedef std::shared_ptr<VirtualRegister<uint8_t>>  VirtReg8;
-typedef std::shared_ptr<VirtualRegister<uint16_t>> VirtReg16;
-typedef std::shared_ptr<VirtualRegister<uint32_t>> VirtReg32;
-typedef std::shared_ptr<VirtualRegister<uint64_t>> VirtReg64;
+typedef std::shared_ptr<VirtualRegister<uint8_t>>  Vireg8;
+typedef std::shared_ptr<VirtualRegister<uint16_t>> Vireg16;
+typedef std::shared_ptr<VirtualRegister<uint32_t>> Vireg32;
+typedef std::shared_ptr<VirtualRegister<uint64_t>> Vireg64;
 
 /**************************************************************************************
  * NAMESPACE
