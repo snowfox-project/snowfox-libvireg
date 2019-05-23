@@ -54,7 +54,7 @@ private:
 
 using namespace snowfox::vireg;
 
-int main(int argc, char **argv)
+int main(int /* argc */, char ** /* argv */)
 {
   VirtualRegisterMap vregmap = VirtualRegisterLoader::load("example-01.json");
 
