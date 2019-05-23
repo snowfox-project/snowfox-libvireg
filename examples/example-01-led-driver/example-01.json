@@ -1,0 +1,4 @@
+{
+  "DDRB":  { "Type": "UNSIGNED8", "Initial": "0x00"},
+  "PORTB": { "Type": "UNSIGNED8", "Initial": "0x00"}
+}
