@@ -21,6 +21,10 @@ set(CMAKE_CXX_STANDARD 11)
 
 ##########################################################################
 
+add_compile_options(-Wall -Wextra -Wpedantic -Werror)
+
+##########################################################################
+
 set(VIREG_LIBRARY_SRC_PATH src)
 
 set(VIREG_LIBRARY_SRCS
