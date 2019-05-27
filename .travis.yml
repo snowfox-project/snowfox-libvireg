@@ -1,0 +1,26 @@
+dist: xenial
+language: cpp
+sudo: enabled
+
+matrix:
+  include:
+    # CODESPELL
+    - env:
+      - NAME="Codespell spelling check"
+      language: generic
+      before_install: true
+      install:
+        - sudo apt-get update
+        - sudo pip install codespell
+      script:
+        - codespell --skip=.git .
+    # BUILD
+    - env:
+      - NAME="Build"
+      before_install: true
+      install:
+        - mkdir build && cd build
+      script:
+        - cmake ..
+        - make
+
