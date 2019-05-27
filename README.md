@@ -13,7 +13,7 @@ A C++ **lib**rary providing **vi**rtual **reg**isters for automated testing of l
 ## Build/Install
 ### Install prerequisites
 ```
-sudo apt-get install cmake
+sudo apt-get install cmake libboost-all-dev
 ```
 
 ### Clone repository
