@@ -1,6 +1,7 @@
 snowfox-libvireg
 ================
 [![GPLv3 License](.ci/badge/license-gplv3-blue.svg)](LICENSE)
+[![Build Status](https://travis-ci.org/snowfox-project/snowfox-libvireg.svg?branch=master)](https://travis-ci.org/snowfox-project/snowfox-libvireg)
 
 <p align="center"> 
 <img src=".ci/logo/snowfox-os-logo-v2.jpg">
