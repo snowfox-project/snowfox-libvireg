@@ -1,5 +1,6 @@
 snowfox-libvireg
 ================
+[![GPLv3 License](.ci/badge/license-gplv3-blue.svg)](LICENSE)
 
 <p align="center"> 
 <img src=".ci/logo/snowfox-os-logo-v2.jpg">
