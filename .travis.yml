@@ -13,12 +13,13 @@ matrix:
         - sudo apt-get update
         - sudo pip install codespell
       script:
-        - codespell --skip=.git .
+        - codespell --skip=.git --skip=external .
     # BUILD
     - env:
       - NAME="Build"
       before_install: true
       install:
+        - sudo apt-get install libboost-all-dev
         - mkdir build && cd build
       script:
         - cmake ..
