@@ -1,5 +1,11 @@
 snowfox-libvireg
 ================
+
+<p align="center"> 
+<img src=".ci/logo/snowfox-os-logo-v2.jpg">
+</p>
+
+### What?
 A C++ **lib**rary providing **vi**rtual **reg**isters for automated testing of low-level hardware driver code.
 
 ## Build/Install
