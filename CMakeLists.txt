@@ -17,6 +17,10 @@ include_directories(external/json/current/include)
 
 ##########################################################################
 
+set(CMAKE_CXX_STANDARD 11)
+
+##########################################################################
+
 set(VIREG_LIBRARY_SRC_PATH src)
 
 set(VIREG_LIBRARY_SRCS
