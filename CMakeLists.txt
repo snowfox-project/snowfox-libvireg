@@ -4,7 +4,9 @@ cmake_minimum_required(VERSION 2.8)
 
 ##########################################################################
 
-set(BUILD_EXAMPLES yes)
+if(NOT DEFINED(${LIBVIREG_BUILD_EXAMPLES}))
+  set(LIBVIREG_BUILD_EXAMPLES yes)
+endif()
 
 ##########################################################################
 
@@ -42,7 +44,7 @@ add_library(
 
 ##########################################################################
 
-if(${BUILD_EXAMPLES} STREQUAL "yes")
+if(${LIBVIREG_BUILD_EXAMPLES} STREQUAL "yes")
   add_subdirectory(examples)
 endif()
 
