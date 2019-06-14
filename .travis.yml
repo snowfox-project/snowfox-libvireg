@@ -22,6 +22,6 @@ matrix:
         - sudo apt-get install libboost-all-dev
         - mkdir build && cd build
       script:
-        - cmake ..
+        - cmake -DLIBVIREG_BUILD_EXAMPLES=yes ..
         - make
 

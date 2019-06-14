@@ -31,7 +31,7 @@ vim config.cmake
 ### Build
 ```
 mkdir build && cd build
-cmake ..
+cmake -DLIBVIREG_BUILD_EXAMPLES=yes ..
 make
 ```
 
