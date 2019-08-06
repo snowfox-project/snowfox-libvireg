@@ -38,6 +38,10 @@ add_library(
 
 ##########################################################################
 
+target_include_directories(${VIREG_LIBRARY_TARGET} PUBLIC include)
+
+##########################################################################
+
 if(DEFINED(${LIBVIREG_BUILD_EXAMPLES}))
   if(${LIBVIREG_BUILD_EXAMPLES} STREQUAL "yes")
     add_subdirectory(examples)
