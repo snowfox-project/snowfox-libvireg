@@ -9,7 +9,10 @@ set(VIREG_LIBRARY_TARGET vireg)
 ##########################################################################
 
 include_directories(include)
-include_directories(external/json/current/include)
+
+##########################################################################
+
+add_subdirectory(external/json/current)
 
 ##########################################################################
 
@@ -35,6 +38,10 @@ add_library(
   STATIC
   ${VIREG_LIBRARY_SRCS}
 )
+
+##########################################################################
+
+target_link_libraries(${VIREG_LIBRARY_TARGET} json)
 
 ##########################################################################
 
