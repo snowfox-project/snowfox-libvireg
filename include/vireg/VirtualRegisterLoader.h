@@ -29,10 +29,7 @@
  * NAMESPACE
  **************************************************************************************/
 
-namespace snowfox
-{
-
-namespace vireg
+namespace snowfox::vireg
 {
 
 /**************************************************************************************
@@ -58,8 +55,6 @@ private:
  * NAMESPACE
  **************************************************************************************/
 
-} /* vireg */
-
-} /* snowfox */
+} /* snowfox::vireg */
 
 #endif /* TEST_VIREG_INCLUDE_VIREG_VIRTUALREGISTERLOADER_H_ */

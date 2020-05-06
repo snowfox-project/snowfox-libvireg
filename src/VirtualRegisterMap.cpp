@@ -26,10 +26,7 @@
  * NAMESPACE
  **************************************************************************************/
 
-namespace snowfox
-{
-
-namespace vireg
+namespace snowfox::vireg
 {
 
 /**************************************************************************************
@@ -59,6 +56,4 @@ bool VirtualRegisterMap::exists(std::string const & key) const
  * NAMESPACE
  **************************************************************************************/
 
-} /* vireg */
-
-} /* snowfox */
+} /* snowfox::vireg */

@@ -26,10 +26,7 @@
  * NAMESPACE
  **************************************************************************************/
 
-namespace snowfox
-{
-
-namespace vireg
+namespace snowfox::vireg
 {
 
 /**************************************************************************************
@@ -106,6 +103,4 @@ bool VirtualRegister<T>::isBitVectSet(std::vector<uint32_t> const bit_pos_vect) 
  * NAMESPACE
  **************************************************************************************/
 
-} /* vireg */
-
-} /* snowfox */
+} /* snowfox::vireg */
