@@ -8,6 +8,10 @@ set(TARGET example-01-led-driver)
 
 ##########################################################################
 
+set(CMAKE_CXX_STANDARD 17)
+
+##########################################################################
+
 add_executable(${TARGET} main.cpp)
 
 target_link_libraries(${TARGET} vireg)
